@@ -3,7 +3,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     background-color: rgba(86, 138, 93, 0.205);
-    color: forestgreen;
+    color: seagreen;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 30px;
 }
@@ -13,7 +13,7 @@ p{
 }
 
 nav{
-    background-color: forestgreen;
+    background-color: seagreen;
     text-align: center; 
 }
 
@@ -28,9 +28,24 @@ a{
     color: white;
 }
 
+#maps{
+    border: 1px solid black;
+    display: inline-block;
+    padding: 6px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+#maps:hover{
+    scale: 105%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.205);
+}
+
 .contatos{
-    display: block;
-    color: forestgreen;
+    width: 500px;
+    display: inline-block;
+    color: seagreen;
     font-weight: bold;
 }
 
@@ -38,13 +53,22 @@ a:hover{
     font-size: 25px;
     background-color: rgba(0, 0, 0, 0.151);
     border-radius: 10px;
+    text-decoration: underline;
 }
 
-header, footer{
+header{
     text-align: center;
-    border: 2px solid forestgreen;
+    border: 2px solid seagreen;
     border-radius: 6px;
     background-color: white;
+}
+
+footer{
+    text-align: center;
+    border: 2px solid seagreen;
+    color: white;
+    border-radius: 6px;
+    background-color: seagreen;
 }
 
 img{
@@ -59,13 +83,14 @@ img{
 #copy{
     font-weight: bold;
     text-align: center;
+    display: inline-block;
 }
 
 .main{
     padding: 20px;
-    color: forestgreen;
+    color: seagreen;
     background-color: white;
-    border: 2px solid forestgreen;
+    border: 2px solid seagreen;
     border-radius: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
