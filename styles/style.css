@@ -2,14 +2,53 @@ body{
     width: 1080;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgba(86, 138, 93, 0.205);
+    background-color: rgba(29, 95, 57, 0.185);
     color: seagreen;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 30px;
 }
 
+fieldset{
+    border: 2.5px solid rgba(0, 0, 0, 0.247);
+    background-color: seagreen;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+}
+
 p{
     text-align: justify;
+}
+
+label{
+    color: aliceblue;
+    font-weight: 500;
+}
+
+legend{
+    padding: 10px;
+    text-align: left;
+    background-color: seagreen;
+    border: 2.5px solid rgba(0, 0, 0, 0.247);
+    font-weight: bold;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+#button{
+    background-color: rgba(0, 0, 0, 0.247);
+    padding: 8px;
+    width: 70px;
+    border-style: none;
+    border-radius: 4px;
+    color: aliceblue;
+}
+
+.text{
+    padding: 2px;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.582);
+    font-family: Arial, sans-serif;
 }
 
 nav{
@@ -29,17 +68,16 @@ a{
 }
 
 #maps{
-    border: 1px solid black;
-    display: inline-block;
+    border: 2px solid seagreen;
+    text-align: center;
+    display: flex;
+    width: auto;
     padding: 6px;
-    margin-left: 15px;
-    margin-bottom: 15px;
     border-radius: 5px;
 }
 
 #maps:hover{
-    scale: 105%;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.205);
+    box-shadow: 5px 5px 10px rgba(14, 77, 47, 0.205);
 }
 
 .contatos{
@@ -51,9 +89,8 @@ a{
 
 a:hover{
     font-size: 25px;
-    background-color: rgba(0, 0, 0, 0.151);
+    background-color: rgba(0, 0, 0, 0.089);
     border-radius: 10px;
-    text-decoration: underline;
 }
 
 header{
@@ -73,7 +110,7 @@ footer{
 
 img{
     display: block;
-    width: 560px;
+    width: 600px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
